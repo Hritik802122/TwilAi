@@ -163,7 +163,8 @@ export async function generateTrendingTopics(location: "India" | "Global") {
         const content = data.choices[0].message.content;
 
         // Extract JSON array from content if permissible
-        const match = content.match(/\[.*?\]/s);
+        // Extract JSON array from content if permissible
+        const match = content.match(/\[[\s\S]*?\]/);
         if (match) {
             return JSON.parse(match[0]);
         }
