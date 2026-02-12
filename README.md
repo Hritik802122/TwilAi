@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  TwilAI – AI-Powered Tweet Generator
 
-## Getting Started
+TwilAI is a modern AI-powered web application that helps users generate high-engagement, viral tweets in seconds.
 
-First, run the development server:
+Built with a premium UI, smooth animations, theme customization, and AI integration, TwilAI delivers a complete SaaS-style experience — from authentication to intelligent content generation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 https://your-live-link-here.com
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Features
 
-To learn more about Next.js, take a look at the following resources:
+###  AI Tweet Generation
+- Generate tweets by entering any topic
+- Select tone (Professional, Casual, Motivational, etc.)
+- Choose tweet length
+- Toggle emojis and hashtags
+- Supports English and Hindi language
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  Trending Ideas (India & Global)
+- Dedicated Trending Ideas page
+- Toggle between India and Global trends
+- Fetch 5–10 trending topics
+- Click any trend to auto-fill tweet input
+- Clean and minimal UI experience
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###  AI Image Generation
+- Generate images related to tweet content
+- Option to attach image with tweet
+- Clean integration inside dashboard
+- Designed for AI-powered content creation workflow
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+###  Dark / Light Theme
+- Beautiful dark mode (default)
+- Clean and professional light mode
+- Smooth theme transition
+- Premium UI design
+- Theme preference saved in local storage
+
+Dark mode includes:
+- Futuristic RGB cursor aura effect
+
+Light mode includes:
+- Minimal SaaS-style interface
+- Clean typography
+- No heavy glow effects
+
+---
+
+###  Viral Tweet Showcase Section
+- Section: “See what viral tweets look like”
+- Realistic tweet-style cards
+- Profile images
+- Likes, comments, retweets, views display
+- Smooth horizontal animation
+- Fully responsive design
+
+---
+
+###  Authentication
+- Google login
+- GitHub login
+- Email & password authentication
+- Secure session handling
+
+After login, users are redirected to the Dashboard.
+
+---
+
+##  Dashboard Features
+
+- Tweet topic input
+- Tone selector
+- Length selector
+- Emoji toggle
+- Hashtag toggle
+- Language selector (English / Hindi)
+- Generate Tweet button
+- Image generation option
+- Saved tweets page
+- Trending Ideas page
+
+---
+
+##  Tech Stack
+
+**Frontend**
+- React / Next.js
+- Tailwind CSS
+- Responsive layout
+- Modern UI components
+
+**Authentication**
+- Clerk (Google, GitHub, Email login)
+
+**AI Integration**
+- Claude (via Bytez API) for tweet generation
+- Image generation model integration
+
+**Other**
+- LocalStorage for theme persistence
+- Clean component architecture
+- Optimized performance
+
+---
+
+##  Project Structure
+
