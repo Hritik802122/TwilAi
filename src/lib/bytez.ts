@@ -1,4 +1,6 @@
 
+"use server";
+
 export async function generateTweet(
     topic: string,
     tone: string,
